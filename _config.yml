@@ -1,0 +1,33 @@
+title: JAMES AND DAISY
+author: Copyright © 2018 James And Daisy 保留一切权力。
+email: james-and-daisy@outlook.com
+description: > # this means to ignore newlines until "twitter_username:"
+  一个富有爱心且让人温暖的博客。
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - index.md
+ - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-youtube
