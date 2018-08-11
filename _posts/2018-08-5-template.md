@@ -103,7 +103,8 @@ author: "James"
 你好 欢迎 道德法制 | 你好 欢迎 道德法制 坐下 | 你好 欢迎 道德法制 坐下 真漂亮 | 你好 欢迎 道德法制 坐下 真漂亮 彩虹突然到来
 
 ### 视频
-{% youtube "http://www.youtube.com/embed/dQw4w9WgXcQ" %}
+> src must start with `https`.
+{% include youtube.html src="https://www.youtube.com/embed/dQw4w9WgXcQ" %}
 
 ### 图片
 ![bg](/assets/img/bg.jpg)

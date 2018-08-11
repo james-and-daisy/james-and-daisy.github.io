@@ -30,4 +30,3 @@ theme: minima
 
 plugins:
  - jekyll-seo-tag
- - jekyll-youtube
