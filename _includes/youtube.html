@@ -17,6 +17,8 @@
     height: 100%;
   }
 </style>
-<div class='embed-container'>
-  <iframe width="560" height="315" src="{{ include.src }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div style="max-width:{{ include.width }}">
+  <div class='embed-container'>
+    <iframe src="{{ include.src }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
 </div>

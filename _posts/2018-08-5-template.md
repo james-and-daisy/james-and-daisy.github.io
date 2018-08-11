@@ -104,7 +104,7 @@ author: "James"
 
 ### 视频
 > src must start with `https`.
-{% include youtube.html src="https://www.youtube.com/embed/dQw4w9WgXcQ" %}
+{% include youtube.html src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="640px" %}
 
 ### 图片
 ![bg](/assets/img/bg.jpg)
