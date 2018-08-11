@@ -107,4 +107,4 @@ author: "James"
 {% include youtube.html src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="640px" %}
 
 ### 图片
-![bg](/assets/img/bg.jpg)
+![bg](/img/bg.jpg)
