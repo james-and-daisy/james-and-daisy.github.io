@@ -164,11 +164,15 @@ pre {
 .background {
   width: 100%;
   background-size: 100%;
-  max-height: $background-height;
+  height: $background-height;
   opacity: 0;
+
+  @include media-query($on-laptop) {
+    height: $background-height / 1.75;
+  }
 }
 
-.mask {
+.base {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -181,6 +185,14 @@ pre {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+
+  padding-right: $spacing-unit / 3;
+  padding-left: $spacing-unit / 3;
+
+  @include media-query($on-palm) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 
