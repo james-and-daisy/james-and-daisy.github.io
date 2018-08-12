@@ -48,7 +48,7 @@ prose:
           label: "title"
       - name: "author"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Author"
           placeholder: "Choose Author"
           options:
@@ -56,3 +56,5 @@ prose:
               value: "James"
             - name: "Daisy"
               value: "Daisy"
+            - name: "James and Daisy"
+              value: "James and Daisy"
