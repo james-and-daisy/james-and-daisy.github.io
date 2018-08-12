@@ -34,6 +34,8 @@ plugins:
 # Online editor prose
 prose:
   rooturl: "_posts"
+  siteurl: "http://jamesanddaisy.github.io/"
+  media: "img"
   metadata:
     _posts:
       - name: "layout"
