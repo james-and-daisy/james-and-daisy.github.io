@@ -30,3 +30,27 @@ theme: minima
 
 plugins:
  - jekyll-seo-tag
+
+# Online editor prose
+prose:
+  rooturl: "_posts"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "author"
+        field:
+          element: "multiselect"
+          label: "Author"
+          placeholder: "Choose Author"
+          options:
+            - name: "James"
+              value: "James"
+            - name: "Daisy"
+              value: "Daisy"
